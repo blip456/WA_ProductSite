@@ -1,0 +1,104 @@
+
+/*FONTS EN EXTERNE RESOURCES*/
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+/*ALGEMEEN*/
+*
+{
+	margin:0;
+	padding: 0;
+	font-family: 'Lato';
+}
+
+body
+{
+	background-color: #eaeaec;
+}
+
+#content
+{
+	width: 960px;
+	margin: 0 auto;
+}
+
+#fullwidth
+{
+	width: auto;
+}
+
+.title
+{
+	padding: 20px;
+	color: white;
+}
+
+/* TEXT */
+.cbp-so-section h2
+{
+	font-size: 40px;
+	font-weight: 300;
+	line-height: 1;
+	margin-bottom: 10px;
+}
+
+h1
+{
+	font-style: 30px;
+	font-weight: 300;
+	text-transform: uppercase;
+	text-decoration: underline;
+}
+
+h1+h2
+{
+	max-width: 400px;
+	font-style: 40px;
+	font-weight: 300;
+}
+
+h2>span
+{	
+	font-size: 80%;
+}
+
+.cbp-so-section p
+{
+	font-size: 20px;
+	font-weight: 300;
+}
+
+/*HEADER*/
+.header
+{
+	background-color: #fbfbfb;
+	height: 50px;
+	line-height: 45px;
+}
+
+.header img
+{
+	 vertical-align: middle;
+}
+
+/*INTRO*/
+.intro
+{
+	background-color: #3399FE;
+	color: white;
+}
+
+/*TITLES*/
+.sleep
+{
+	background-color: #25383C;
+}
+
+.sync
+{
+	background-color: #2B474B;
+}
+
+.progress
+{
+	background-color: #365359;
+}
